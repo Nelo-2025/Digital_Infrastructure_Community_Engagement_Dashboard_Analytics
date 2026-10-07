@@ -1,5 +1,29 @@
 # Open Data Infrastructure for Social Impact
 
+The original Excel file is **not included in this repository** due to data protection, privacy, and company confidentiality requirements.
+
+The project demonstrates the development of a **digital reporting and data infrastructure** using commonly available tools such as Microsoft Excel, Word, Google Sheets, and Google Docs. Where collaboration is required, **Google Sheets and Google Docs are recommended** to enable multiple contributors to work on the same records and documentation.
+
+### Data Collection and Reporting Structure
+
+Before entering activity logs, first identify and structure the columns around the **activities participants routinely engage in**. This creates a consistent data structure and makes subsequent analysis, reporting, and visualisation more reliable.
+
+For example, activity categories may include:
+
+- Storytelling and reading
+- Rhymes and singing
+- Toy and sensory activities
+- Creative activities
+- Group play
+- Parent/carer interaction
+- Other routinely recorded activities
+
+This structured approach helps ensure that participant engagement is recorded consistently and can support the development of a more comprehensive **digital reporting tool** in the future.
+
+> **Data Protection Notice:** No personal, identifiable, or confidential company data is included in this repository. The examples and documentation are intended to demonstrate the data structure, reporting approach, and technical concept without exposing protected information.
+
+
+
 ### Strategic Leadership Impact — Executive Summary
 This is an interactive analytics dashboard built for data entry, analysis, and reporting in a social impact setting. It was designed to assess and improve early-years community engagement sessions, tracking community events and participant engagement to inform resource allocation decisions. The pipeline feeds directly into grant-ready impact reports for local event planners and funders.
 
