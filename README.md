@@ -1,26 +1,90 @@
 # Open Data Infrastructure for Social Impact
 
-The original Excel file is **not included in this repository** due to data protection, privacy, and company confidentiality requirements.
+This project explores the design of a **structured digital data infrastructure for social-impact activity reporting**, with a focus on transforming routine activity records into consistent, analysis-ready datasets.
 
-The project demonstrates the development of a **digital reporting and data infrastructure** using commonly available tools such as Microsoft Excel, Word, Google Sheets, and Google Docs. Where collaboration is required, **Google Sheets and Google Docs are recommended** to enable multiple contributors to work on the same records and documentation.
+## Data Privacy and Source Files
 
-### Data Collection and Reporting Structure
+The original Excel dataset is **not included in this repository** due to data protection, participant privacy, and company confidentiality requirements.
 
-Before entering activity logs, first identify and structure the columns around the **activities participants routinely engage in**. This creates a consistent data structure and makes subsequent analysis, reporting, and visualisation more reliable.
+Instead, this repository documents the **data structure, reporting methodology, and digitalisation approach** without exposing personal, identifiable, or commercially sensitive information.
 
-For example, activity categories may include:
+## Data Infrastructure and Digital Reporting
 
-- Storytelling and reading
-- Rhymes and singing
-- Toy and sensory activities
-- Creative activities
-- Group play
-- Parent/carer interaction
-- Other routinely recorded activities
+The proposed reporting workflow uses structured spreadsheets and collaborative documentation tools to establish a consistent data-entry and reporting process.
 
-This structured approach helps ensure that participant engagement is recorded consistently and can support the development of a more comprehensive **digital reporting tool** in the future.
+**Google Sheets** and **Google Docs** are recommended where multiple contributors need to collaborate, review, and maintain records. Microsoft Excel and Word can also be used for local data preparation and documentation where appropriate.
 
-> **Data Protection Notice:** No personal, identifiable, or confidential company data is included in this repository. The examples and documentation are intended to demonstrate the data structure, reporting approach, and technical concept without exposing protected information.
+The infrastructure is designed to support a progression from:
+
+**Routine activity logging → Structured dataset → Data cleaning → Analysis → Visualisation → Impact reporting**
+
+## Data Schema Design
+
+Before entering historical or new activity records, the dataset should be designed around the **activities participants routinely engage in**.
+
+Rather than maintaining unstructured narrative logs, activity categories should be represented as structured fields/columns. This improves:
+
+- Data consistency
+- Data validation
+- Activity-level analysis
+- Participant engagement measurement
+- Trend identification
+- Reporting automation
+- Dashboard development
+- Future integration with analytics and digital platforms
+
+Example activity fields may include:
+
+| Field | Purpose |
+|---|---|
+| Date | Records when the activity took place |
+| Session | Identifies the specific session |
+| Participant Count | Records participation volume |
+| Storytelling/Reading | Captures engagement with reading activities |
+| Rhymes/Singing | Captures participation in musical activities |
+| Toy/Sensory Play | Records play-based engagement |
+| Creative Activities | Records arts and creative participation |
+| Group Play | Captures collaborative play |
+| Parent/Carer Interaction | Records interaction-focused activities |
+| Other Activity | Captures activities outside predefined categories |
+
+The exact schema should be adapted to the activities routinely delivered by each organisation.
+
+## Data Quality and Analysis
+
+Structuring the data at the point of collection reduces the need for extensive manual transformation later. The resulting dataset can be prepared for:
+
+- Data cleaning and validation
+- Descriptive and exploratory data analysis
+- Participation and engagement metrics
+- Activity frequency analysis
+- Trend analysis over time
+- Dashboard and visualisation development
+- Automated impact reporting
+- Future database or API integration
+
+The approach provides a foundation for moving from **manual reporting processes to a reusable digital reporting infrastructure**.
+
+## Privacy-by-Design
+
+The project follows a privacy-conscious approach by separating the **data model and reporting methodology** from sensitive source data.
+
+No personally identifiable information or confidential organisational records are required in the public repository. Where real participant-level data is used operationally, appropriate access controls, data-minimisation practices, and organisational data-protection requirements should be applied.
+
+## Future Development
+
+The proposed infrastructure can be extended into a dedicated digital reporting system capable of:
+
+1. Collecting structured activity data.
+2. Validating and standardising records.
+3. Automating data cleaning and transformation.
+4. Generating participation and engagement metrics.
+5. Producing interactive dashboards.
+6. Generating impact and grant-reporting outputs.
+7. Supporting longitudinal analysis of activity and participation.
+8. Providing a foundation for integration with databases, APIs, and other digital platforms.
+
+The objective is to demonstrate how **structured data architecture can convert routine social-impact activities into reusable, analysis-ready information for evidence-based reporting and decision-making**.
 
 
 
